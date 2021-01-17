@@ -30,12 +30,11 @@
 	.navbar-brand a {
 		font-size: 30px;
 		text-decoration: none;
-		color: darkgrey;
+		color: black;
 	}
 	.navbar-brand a:hover {
-		font-size: 35px;
 		text-decoration: none;
-		color: black;
+		color: lightgray;
 	}
 	a{
 		font-size: 20px;
@@ -45,4 +44,12 @@
 	a:hover{
 		text-decoration: none;
 		color: black;
+	}
+	.container-fluid {
+		background-color: grey;
+	    padding: 30px;
+	    width: !important;
+	}
+	.navbar {
+		border: 0px;
 	}
